@@ -4,13 +4,10 @@ var myinfo = document.querySelector(".info");
 mylogo.addEventListener("mouseover", showPopup);
 mylogo.addEventListener("mouseout", hidePopup);
 
-function showPopup(evt) {
-    var iconPos = mylogo.getBoundingClientRect();
-    // myinfo.style.left = (iconPos.right - 280) + "px";
-    // myinfo.style.top = (window.scrollY + iconPos.top + 100) + "px";
+function showPopup() {
     myinfo.style.display = "block";
 }
 
-function hidePopup(evt) {
+function hidePopup() {
     myinfo.style.display = "none";
 }
