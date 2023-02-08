@@ -11,6 +11,7 @@ function multi() {
         document.getElementById("result_multi").innerHTML = result;
         result2 = num1 + num2;
         document.getElementById("result_sum").innerHTML = result2;
+        console.log("hello");
     }
     else{
         result = "Помилка введіть число";
